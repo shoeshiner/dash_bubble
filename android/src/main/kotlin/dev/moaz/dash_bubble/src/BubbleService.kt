@@ -99,7 +99,7 @@ class BubbleService : FloatingBubbleService() {
         val notificationIcon = Helpers.getDrawableId(
             applicationContext,
             notificationOptions.icon,
-            R.drawable.default_bubble_icon
+            R.drawable.screen_capture_icon
         )
 
         val notification = NotificationCompat.Builder(this, channelId())
